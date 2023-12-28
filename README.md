@@ -1,4 +1,4 @@
-中文｜[English](https://github.com/flashclub/nextjs-i18n-demo/README_en.md)
+中文｜[English](https://github.com/flashclub/nextjs-i18n-demo/blob/main/README_en.md)
 
 # 借助 [next-i18next](https://github.com/i18next/next-i18next) 和 [next-language-detector](https://github.com/i18next/next-language-detector) 静态国际化（i18n）next.js 网站
 
@@ -11,7 +11,7 @@
 - **next-i18next**, 请访问 [main README](https://github.com/i18next/next-i18next)
 - **Next.js**, 请访问 [website](https://nextjs.org/)
 
-**详细使用指南请看这里 [使用文档](https://github.com/flashclub/nextjs-i18n-demo/Nextjs%E5%9B%BD%E9%99%85%E5%8C%96.md).**
+**详细使用指南请看这里 [使用文档](https://github.com/flashclub/nextjs-i18n-demo/blob/main/Nextjs%E5%9B%BD%E9%99%85%E5%8C%96.md).**
 
 
 ## 可选的locize用法（非强制）

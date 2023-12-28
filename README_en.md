@@ -1,5 +1,5 @@
 
-[中文](https://github.com/flashclub/nextjs-i18n-demo/README.md)｜English
+[中文](https://github.com/flashclub/nextjs-i18n-demo/blob/main/README.md)｜English
 # Static internationalized (i18n) next.js website with the help of [next-i18next](https://github.com/i18next/next-i18next) and [next-language-detector](https://github.com/i18next/next-language-detector)
 
 ## What is this?
