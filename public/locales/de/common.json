@@ -4,5 +4,6 @@
   "error-without-status": "Auf dem Server ist ein Fehler aufgetreten",
   "h1": "Ein einfaches Beispiel",
   "title": "Hauptseite | next-i18next",
-  "to-second-page": "Zur zweiten Seite"
+  "to-second-page": "Zur zweiten Seite",
+  "description": "Next.js i18n internationale Vorlage"
 }
