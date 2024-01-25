@@ -15,6 +15,7 @@ export const Header = ({ heading, title }) => (
       href="//github.com/flashclub/nextjs-i18n-demo"
     >
       <i className="typcn typcn-social-github-circular" />
+      <span style={{ opacity: 0, position: 'absolute' }}>GitHub</span>
     </a>
   </>
 )
