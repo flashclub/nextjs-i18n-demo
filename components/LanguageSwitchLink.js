@@ -1,3 +1,8 @@
+/**
+ * 切换语言组件
+ * 按钮组件
+ */
+
 import languageDetector from '@/lib/languageDetector'
 import { useRouter } from 'next/router'
 import Link from 'next/link'

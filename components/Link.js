@@ -1,3 +1,8 @@
+/**
+ * 跳转组件
+ * 替换官方 next/link 组件
+ * 功能一致
+ */
 import React from 'react'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
