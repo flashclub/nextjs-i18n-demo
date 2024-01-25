@@ -45,10 +45,8 @@ export default function Document(props) {
         <meta property="twitter:image" content={meta.socialImageURL} />
 
         <meta name="apple-mobile-web-app-capable" content="yes" />
-        <link
-          href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
-          rel="stylesheet"
-        />
+
+        <link href="/reset.css" rel="stylesheet" />
         <link href="/app.css" rel="stylesheet" />
 
         <link
