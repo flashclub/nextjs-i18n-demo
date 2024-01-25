@@ -1,0 +1,8 @@
+{
+  "back-to-home": "回到家",
+  "error-with-status": "伺服器發生 {{statusCode}} 錯誤",
+  "error-without-status": "伺服器發生錯誤",
+  "h1": "一個簡單的例子",
+  "title": "首頁 |\n下一個-i18下一個",
+  "to-second-page": "到第二頁"
+}
