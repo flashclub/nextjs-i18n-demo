@@ -6,7 +6,7 @@ import { CheckIcon } from '@heroicons/react/20/solid'
 import i18nextConfig from '@/next-i18next.config'
 import LanguageSwitchLink from './LanguageSwitchLink'
 import languageDetector from '@/lib/languageDetector'
-
+import { returnHref } from '@/lib/tool'
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
 }
@@ -16,8 +16,7 @@ export const SwitchBox = () => {
   const [languages, setLanguages] = useState([]);
   const router = useRouter()
   const { t } = useTranslation('footer')
-  const { locale } = router.query
-  console.log('init page', locale);
+  const { locale } = router.query;
   languageDetector.cache(locale)
   // 异步加载语言配置
   const fetchLanguages = async () => {
@@ -25,7 +24,6 @@ export const SwitchBox = () => {
     const data = await response.json();
     setLanguages(data.languages);
 
-    console.log('router-locale--', locale, data.languages);
     if (locale) {
       setSelected(data.languages.find(item => item.code === locale))
     } else {
@@ -37,8 +35,10 @@ export const SwitchBox = () => {
     fetchLanguages();
   }, []);
   useEffect(() => {
-    console.log('selected: ', selected);
-    selected.code && router.push(`/${selected.code}`)
+    let pName = router.pathname
+    const link = returnHref(router, selected.code)
+    selected.code && router.push(`/${link}`)
+
   }, [selected])
   const currentLocale =
     router.query.locale || i18nextConfig.i18n.defaultLocale
