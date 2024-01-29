@@ -37,7 +37,7 @@ export const SwitchBox = () => {
   useEffect(() => {
     let pName = router.pathname
     const link = returnHref(router, selected.code)
-    selected.code && router.push(`/${link}`)
+    selected.code && router.push(link)
 
   }, [selected])
   const currentLocale =
