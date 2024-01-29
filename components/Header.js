@@ -1,10 +1,11 @@
 import Head from 'next/head'
-
+import { SwitchBox } from './SwitchBox'
 export const Header = ({ heading, title }) => (
   <>
     <Head>
       <title>{title}</title>
     </Head>
+    <SwitchBox />
     <h2>
       next-language-detector example
       <hr />

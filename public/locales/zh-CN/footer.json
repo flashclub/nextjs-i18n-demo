@@ -1,4 +1,5 @@
 {
   "change-locale": "更改区域设置",
-  "description": "这是一个非页面组件，需要自己的命名空间"
+  "description": "这是一个非页面组件，需要自己的命名空间",
+  "switch_language": "切换语言"
 }

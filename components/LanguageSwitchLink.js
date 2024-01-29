@@ -30,6 +30,7 @@ const LanguageSwitchLink = ({ locale, ...rest }) => {
     <Link href={href}>
       <button
         style={{ fontSize: 'small' }}
+        className='m-2'
         onClick={() => languageDetector.cache(locale)}
       >
         {locale}
